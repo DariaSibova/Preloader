@@ -183,6 +183,17 @@ body {
 	to { transform: rotate(240deg) translateY(7.5em) scale(0); }
 }
 
+@keyframes moveOut6 {
+	from { transform: rotate(300deg) translateY(0) scale(0); }
+	3% { transform: rotate(300deg) translateY(0.2em) scale(1); }
+	97% { transform: rotate(300deg) translateY(7.3em) scale(1); }
+	to { transform: rotate(300deg) translateY(7.5em) scale(0); }
+}
+
+@keyframes ripple {
+	from, to { width: 0.2em; }
+	33% { width: 2.4em; }
+}
 
 
 
