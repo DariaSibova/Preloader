@@ -43,3 +43,21 @@ body {
 	height: 100%;
 }
 
+.hexagon__group:nth-child(2) 
+.hexagon__sector,
+.hexagon__group:nth-child(2)
+ .hexagon__sector:before,
+.hexagon__group:nth-child(2) 
+.hexagon__sector:after {
+	animation-delay: calc(var(--dur) * -1/6);
+}
+.hexagon__group:nth-child(3)
+ .hexagon__sector,
+.hexagon__group:nth-child(3)
+ .hexagon__sector:before,
+.hexagon__group:nth-child(3)
+ .hexagon__sector:after {
+	animation-delay: calc(var(--dur) * -2/6);
+}
+
+
