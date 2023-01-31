@@ -117,4 +117,21 @@ body {
 	animation-name: moveOut5;
 }
 
+.hexagon__sector:nth-child(6){
+	animation-name: moveOut6;
+}
+.hexagon__sector:before, 
+.hexagon__sector:after {
+	animation-name: ripple;
+	background-color: currentColor;
+	border-radius: 0.1em;
+	content: "";
+	display: block;
+	top: 0;
+	left: 0;
+	transform-origin: 0.1em 0.1em;
+}
+
+
+
 
