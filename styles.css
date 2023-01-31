@@ -146,5 +146,15 @@ body {
 	}
 }
 
+/* Animations */
+@keyframes moveOut1 {
+	from { transform:
+     translateY(0) scale(0); }
+	3% { transform: translateY(0.2em) scale(1); }
+	97% { transform: translateY(7.3em) scale(1); }
+	to { transform: translateY(7.5em) scale(0); }
+}
+
+
 
 
