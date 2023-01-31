@@ -132,6 +132,19 @@ body {
 	transform-origin: 0.1em 0.1em;
 }
 
+.hexagon__sector:before {
+	transform: rotate(-30deg)
+}
+.hexagon__sector:after {
+	transform: rotate(-150deg)
+}
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #17181c;
+		--fg: #e3e4e8;
+	}
+}
 
 
 
