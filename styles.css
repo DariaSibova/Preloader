@@ -1,0 +1,24 @@
+* {
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--bg: #e3e4e8;
+	--fg: #17181c;
+	--dur: 8s;
+	font-size: calc(20px + (30 - 20) * (100vw - 320px) / (1280 - 320));
+}
+
+body {
+	background: var(--bg);
+	color: var(--fg);
+	font: bold 1em/1.5 "Comfortaa", sans-serif;
+	display: grid;
+	place-items: center;
+	align-content: center;
+	height: 100vh;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
