@@ -22,3 +22,24 @@ body {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
+
+.hexagon {
+	margin-bottom: 1.5em;
+	overflow: hidden;
+	position: relative;
+	width: 15em;
+	height: 15em;
+}
+
+.hexagon__group,
+ .hexagon__sector,
+  .hexagon__sector:before,
+   .hexagon__sector:after {
+	position: absolute;
+}
+
+.hexagon__group {
+	width: 100%;
+	height: 100%;
+}
+
