@@ -34,7 +34,7 @@ body {
 .hexagon__group,
 .hexagon__sector,
 .hexagon__sector:before,
-.hexagon__sector:after {
+.hexagon__sector:after{
   position: absolute;
 }
 
@@ -85,3 +85,36 @@ body {
 .hexagon__sector:after {
   animation-delay: calc(var(--dur) * -5 / 6);
 }
+
+.hexagon__group:nth-child(odd) {
+	transform: rotate(30deg);
+}
+.hexagon__sector, 
+.hexagon__sector:before,
+.hexagon__sector:after {
+	animation-duration: var(--dur);
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	width: 0.2em;
+	height: 0.2em;
+}
+
+.hexagon__sector {
+	animation-name: moveOut1;
+	top: calc(50% - 0.1em);
+	left: calc(50% - 0.1em);
+}
+.hexagon__sector:nth-child(2){
+	animation-name: moveOut2;
+}
+.hexagon__sector:nth-child(3){
+	animation-name: moveOut3;
+}
+.hexagon__sector:nth-child(4){
+	animation-name: moveOut4;
+}
+.hexagon__sector:nth-child(5){
+	animation-name: moveOut5;
+}
+
+
